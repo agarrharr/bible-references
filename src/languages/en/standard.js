@@ -1,25 +1,25 @@
 import {generateArrayFrom1ToN} from 'utilities';
 
 const BOOKS = {
-  GENESIS: 'GENESIS',
-};
-
-const ABBREV = {
-  GENESIS: 'GEN',
+  GENESIS: {
+    BOOK: 'Genesis',
+    ABBREV: 'Gen',
+  },
 };
 
 const PARTS = {
-  OLD: 'OLD_TESTAMENT',
+  OLD: 'Old Testament',
+  NEW: 'New Testament',
 };
 
 const SECTIONS = {
-  PENTATEUCH: 'PENTATEUCH',
+  PENTATEUCH: 'Pentateuch',
 };
 
 const books = [
   {
-    book: BOOKS.GENESIS,
-    abbreviation: ABBREV.GENESIS,
+    book: BOOKS.GENESIS.BOOK,
+    abbreviation: BOOK.GENESIS.ABBREV,
     chapters: generateArrayFrom1ToN(50),
     part: PARTS.OLD,
     section: SECTIONS.PENTATEUCH,
