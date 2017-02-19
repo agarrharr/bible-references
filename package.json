@@ -1,0 +1,16 @@
+{
+  "name": "bible-references",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aharris88/bible-references.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aharris88/bible-references/issues"
+  }
+}
